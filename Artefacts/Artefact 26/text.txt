@@ -1,0 +1,12 @@
+25:
+Applications responsible for inventory management and suppliers share the same database. (copy paste)
+Historic Management System (R-49)
+
+Artefacto 26:
+The artifact payment files is transferred to the interbank network daily with payments from online customers.
+
+
+No sê como representar isto:
+
+When a payment is made in a traditional store it opens a synchronous communication, encrypted, and with 
+139 guaranteed delivery of the payment between the terminal and interbank network.

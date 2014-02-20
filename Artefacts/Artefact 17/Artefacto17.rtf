@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Calibri;\f2\fnil\fcharset0 Cambria;
+\f3\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red108\green108\blue108;\red177\green178\blue177;\red255\green255\blue255;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25100\viewh13660\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs30 \cf0 ARTEFATO 17 
+\f1 -
+\fs18  
+\fs32 Especifica\'e7\'e3o das quest\'f5es R-25 a R-32 com base no artefacto #8
+\f0\fs24 \
+
+\b0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\b\fs25\fsmilli12960 \cf2 R-25. \cf0 \'93What is the revenue associated with the sale of the book titled 'ABC' in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that associates the books ID with the number of people that bought the book in that year. By knowing how many people bought it, we can know the revenue associated with that book sale.\
+
+\b \cf2 \
+R-26.\cf0  \'93What is the customer who bought more books to RAREBOOKSCO in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that associates each customer with the number of of books he bought during that year.\
+
+\b \cf2 \
+R-27. \cf0 \'93What is the middleman who bought more books to RAREBOOKSCO in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that associates the name of a customer (in this case another company) with the number of books they bought in that year. With that information we just need to select the one who has the highest amount of books bought.\
+
+\b \cf2 \
+R-28.\cf0  \'93What is the vendor that supplied more books to RAREBOOKSCO in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Sales Process (which is realized by the Traditional and Online Sales Services) Database that associates each hired supplier with the number of books they supplied to RAREBOOKSCO in that year.\
+
+\b \cf2 \
+R-29. \cf0 \'93What percentage of books sold through intermediaries in relation to all sales carried in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that associates to each customer information about the type of customer (wether he is a regular customer or a business entity). Each customer has associated the number of books he bought in that year. Knowing the total of sales carried in that year and knowing from all costumers which ones are companies or regular people, we just need to make the ratio between the number of books sold to customers of type Business Entity and the total amount of books sold in that year.\
+
+\f1\fs24 \cf3 \
+
+\f2\b\fs25\fsmilli12960 \cf2 R-30.\cf0  \'93What percentage of books sold electronically in 2012?\'94 
+\b0 \
+This 
+\i query 
+\i0 can be answered through the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that associates the total amount of books sold during that year with the amount of books sold during that same year electronically and/or traditionally.\
+
+\b \cf2 \
+R-31.\cf0  \'93What is the average sales margin in 2012?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through joining the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that has information regarding the number of books sold during the year of 2012 and the information available in the Sales Process (which is realized by the Traditional and Online Sales Services) Database that has information regarding the number of books bought by RAREBOOKSCO to its suppliers during the year of 2012. With both informations we can know the average sales margin of that year and know what percentage of the sales price was actually profit.
+\f3\fs26 \cb4 \
+
+\f2\b\fs25\fsmilli12960 \cf2 \cb1 \
+R-32. \cf0  \'93What percentage of books purchased in 2011 were sold in 2012 considering the total number of books purchased in 2011?\'94
+\b0 \
+This 
+\i query 
+\i0 can be answered through joining the information available in the Purchases Process (which is realized by the Traditional and Online Purchases Services) Database that has information regarding the number of books sold during the year of 2012 and the information available in the Sales Process (which is realized by the Traditional and Online Sales Services) Database that has information regarding the number of books that were purchased by RAREBOOKSCO in 2011. By joining both informations, we can match the books that were purchased by the company in 2011 with the ones the company sold in 2012 and, considering the information regarding the total number of books purchased by RAREBOOKSCO in 2011, we can get the percentage of books purchased in 2011 that were sold in 2012.\
+
+\f1\fs18 \cf3 \
+
+\f2\fs19\fsmilli9960 \cf0 \
+\
+\
+\
+\
+\
+}

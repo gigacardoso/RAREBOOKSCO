@@ -1,0 +1,16 @@
+ serviços : 
+	Serviço de vendas
+	Serviço de Gestão de Stocks
+	Serviço de Compra (a fornecedores)
+	
+Objectivos : 
+	Objectivos estrategicos:
+
+a) Aumentar o volume de vendas em 10% por ano durante pelo menos um período de 5 anos;
+b) Canalizar um mínimo de 60% das vendas para o mercado electrónico (Internet) num prazo de dois anos
+
+OBJECTIVOS OPERACIONAIS
+
+a) Criação de uma loja online própria;
+b) Estabelecimento de parcerias com lojas de venda de livros online para que o catálogo da RAREBOOKS passe a estar disponível nessas lojas;
+c) Intermediar o fornecimento de livros através de plataformas electrónicas e/ou não electrónicas;

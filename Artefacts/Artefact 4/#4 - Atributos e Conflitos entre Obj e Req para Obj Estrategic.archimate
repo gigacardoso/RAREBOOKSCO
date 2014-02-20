@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.bolton.ac.uk/archimate" name="Goal Contribution" id="bb471cf0" version="2.2.1">
+  <folder name="Business" id="01c505fa" type="business"/>
+  <folder name="Application" id="296719b7" type="application"/>
+  <folder name="Technology" id="aa4e0946" type="technology"/>
+  <folder name="Motivation" id="4ef47623" type="motivation">
+    <element xsi:type="archimate:Principle" id="58867233" name="Principle"/>
+    <element xsi:type="archimate:Goal" id="0a531e2e" name="Increase Total Sales Volume in 10% per year in 5 years"/>
+    <element xsi:type="archimate:Goal" id="15fb34d0" name="Channel at least 60% of sales to the electronic market"/>
+    <element xsi:type="archimate:Requirement" id="1e755e9a" name="Requirement"/>
+    <element xsi:type="archimate:Goal" id="f52e23a2" name="Create own Online Store"/>
+    <element xsi:type="archimate:Goal" id="0d7b3806" name="Establish partnerships with other online stores"/>
+    <element xsi:type="archimate:Goal" id="e5b7edd7" name="Goal"/>
+    <element xsi:type="archimate:Requirement" id="2f3bcbf6" name="Requirement"/>
+    <element xsi:type="archimate:Principle" id="d6c23cc4" name="RareBooksCo will maintain all tradicional Stores"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="94e887cd" type="implementation_migration"/>
+  <folder name="Connectors" id="cda9d0b2" type="connectors"/>
+  <folder name="Relations" id="b5296605" type="relations">
+    <element xsi:type="archimate:InfluenceRelationship" id="ffbf0085" source="15fb34d0" target="0a531e2e"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="6b7bd67c" source="0a531e2e" target="15fb34d0"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="f37fbfaf" name="++" source="f52e23a2" target="15fb34d0"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="84e06b90" name="++" source="0d7b3806" target="15fb34d0"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="d8fe4e39" name="-" source="d6c23cc4" target="15fb34d0"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="1e31c0a1" name="++" source="f52e23a2" target="0a531e2e"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="9b9780e3" name="++" source="0d7b3806" target="0a531e2e"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="69f73f4c" name="+" source="d6c23cc4" target="0a531e2e"/>
+  </folder>
+  <folder name="Views" id="05762e74" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="ab2fbc2e" name="Goal Contribution" connectionRouterType="2" viewpoint="22">
+      <child xsi:type="archimate:DiagramObject" id="fff78c7c" textAlignment="2" targetConnections="50271d57 4c7ba33f 5f23dab0" archimateElement="0a531e2e">
+        <bounds x="438" y="468" width="155" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bbf281e8" textAlignment="2" targetConnections="1be4434f e940f100 50fddc27" archimateElement="15fb34d0">
+        <bounds x="443" y="96" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7a75eb90" textAlignment="2" archimateElement="f52e23a2">
+        <bounds x="456" y="293" width="120" height="45"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1be4434f" textPosition="2" source="7a75eb90" target="bbf281e8" relationship="f37fbfaf"/>
+        <sourceConnection xsi:type="archimate:Connection" id="50271d57" textPosition="2" source="7a75eb90" target="fff78c7c" relationship="1e31c0a1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="de414686" textAlignment="2" archimateElement="0d7b3806">
+        <bounds x="636" y="283" width="120" height="73"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e940f100" textPosition="2" source="de414686" target="bbf281e8" relationship="84e06b90"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4c7ba33f" textPosition="2" source="de414686" target="fff78c7c" relationship="9b9780e3"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a53bff4f" textAlignment="2" archimateElement="d6c23cc4">
+        <bounds x="288" y="283" width="120" height="73"/>
+        <sourceConnection xsi:type="archimate:Connection" id="50fddc27" textPosition="2" source="a53bff4f" target="bbf281e8" relationship="d8fe4e39"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5f23dab0" textPosition="2" source="a53bff4f" target="fff78c7c" relationship="69f73f4c"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

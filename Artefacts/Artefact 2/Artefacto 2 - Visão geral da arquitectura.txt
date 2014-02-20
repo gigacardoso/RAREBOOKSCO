@@ -1,0 +1,14 @@
+2 Visão geral da arquitetura empresarial da RAREBOOKS
+________________________________________________________________
+
+Com este relatório pretende-se desenvolver uma arquitectura para a empresa RAREBOOKS, de modo a que os seus processos não sejam
+realizados de forma ad-hoc e de forma a que se clarifiquem as possibilidades de automação dos mesmos sempre que possível. 
+O esforço no desenvolvimento desta arquitectura servirá de fonte de poupança previsível para a empresa, promovendo o alinhamento entre as camadas de negócio,
+aplicações, informação e infra-estruturas tecnológicas.
+
+
+Faremos uso do modelo "Microsoft Dynamics Customer", para a estruturação dos processos e unidades orgânicas da RAREBOOKS
+essencialmente por ser um modelo relativamente simples. No entanto as unidades orgânicas estarão de acordo com o contexto do projecto
+pelo que não se incluirão os departamentos de Finanças, Recursos Humanos, Desenho & Engenharia. 
+
+O desenho dos modelos desta arquitectura são realizados em linguagens ArchiMate, BPMN 2.0 e UML 2.0

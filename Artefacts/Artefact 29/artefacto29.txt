@@ -1,0 +1,7 @@
+- We used the “ArchiMate 2 specification” document to elaborate the ArchiMate viewpoints.
+- The processes and departments are modelled based on the “Microsoft Customer Model” document;
+ - In the artefact 5, the Online Purchases Service and the Traditional Purchases Service are related with the increase total sales volume strategic objective because if we have purchase services that deal with more competent suppliers (and distributers) we are contributing to get more satisfied customers either by providing better quality books or delivering those books faster, increasing in this way the sales volume. 
+- In the artefact 6, we are only considering the most important services for the company in our opinion. We could complement the artefact with all the services corresponding to the interactions between RAREBOOKSCO and the context entities presented in the artefact 1, for example the catalogue distribution service.
+-  In the artefact 12 we just detail the processes that are relevant in the context of this project although we have given an overview of the other processes in the artefact 11. 
+- The artefact 13 and 14 are represented in the artefact 12 because the break points and critical points are clearer if they are represented in the BPMN diagram in our opinion.
+- The artefact 21 relates the applications with the high level business processes description of artefact 11.

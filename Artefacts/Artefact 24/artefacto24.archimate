@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.bolton.ac.uk/archimate" name="Processing Technological Infrastructure" id="d328c21a" version="2.2.1">
+  <folder name="Business" id="f2b6e152" type="business"/>
+  <folder name="Application" id="fbb93e43" type="application"/>
+  <folder name="Technology" id="7eef57c2" type="technology">
+    <element xsi:type="archimate:Node" id="62e31507" name="Node"/>
+    <element xsi:type="archimate:InfrastructureInterface" id="5437f655" name="Infrastructure Interface"/>
+    <element xsi:type="archimate:Node" id="3426077e" name="MAINFRAME"/>
+    <element xsi:type="archimate:Device" id="1ac88690" name="RAREBOOKSCO mySQL Server"/>
+    <element xsi:type="archimate:Device" id="e8de2231" name="RAREBOOKSCO Server"/>
+    <element xsi:type="archimate:Device" id="6faa1916" name="RAREBOOKSCO Servers"/>
+    <element xsi:type="archimate:Device" id="b148edff" name="RAREBOOKSCO Front Office Application Server"/>
+    <element xsi:type="archimate:Device" id="ddef7731" name="RAREBOOKSCO Back Office Application Server"/>
+  </folder>
+  <folder name="Motivation" id="1936d1af" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="b16646ab" type="implementation_migration"/>
+  <folder name="Connectors" id="81db66f2" type="connectors"/>
+  <folder name="Relations" id="93b47f5c" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="350460e7" source="3426077e" target="1ac88690"/>
+    <element xsi:type="archimate:CompositionRelationship" id="3744ae63" source="3426077e" target="e8de2231"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="1a177104" source="ddef7731" target="6faa1916"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="1198ac2e" source="b148edff" target="6faa1916"/>
+    <element xsi:type="archimate:CompositionRelationship" id="056df202" source="3426077e" target="6faa1916"/>
+    <element xsi:type="archimate:CompositionRelationship" id="42bec0cb" source="3426077e" target="ddef7731"/>
+    <element xsi:type="archimate:CompositionRelationship" id="ba0175dd" source="3426077e" target="b148edff"/>
+  </folder>
+  <folder name="Views" id="33aad0c8" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="42e47793" name="Default View" viewpoint="13">
+      <child xsi:type="archimate:DiagramObject" id="88da148f" textAlignment="2" archimateElement="3426077e">
+        <bounds x="156" y="120" width="553" height="229"/>
+        <child xsi:type="archimate:DiagramObject" id="b5e8164d" textAlignment="2" targetConnections="d35e6ee2 d8c83bc6" archimateElement="6faa1916">
+          <bounds x="204" y="48" width="132" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="7a7294fe" textAlignment="2" archimateElement="ddef7731">
+          <bounds x="384" y="132" width="132" height="85"/>
+          <sourceConnection xsi:type="archimate:Connection" id="d35e6ee2" source="7a7294fe" target="b5e8164d" relationship="1a177104"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="fd29ce38" textAlignment="2" archimateElement="b148edff">
+          <bounds x="24" y="132" width="132" height="85"/>
+          <sourceConnection xsi:type="archimate:Connection" id="d8c83bc6" source="fd29ce38" target="b5e8164d" relationship="1198ac2e"/>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
